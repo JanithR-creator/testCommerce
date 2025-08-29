@@ -1031,10 +1031,10 @@
                 "name": "Ocp-Apim-Subscription-Key",
                 "in": "header"
             },
-            "apiKeyQuery": {
+            "tenantId": {
                 "type": "apiKey",
-                "name": "subscription-key",
-                "in": "query"
+                "name": "Cenium-Tenant-Id",
+                "in": "header"
             }
         }
     },
@@ -1043,7 +1043,7 @@
             "apiKeyHeader": []
         },
         {
-            "apiKeyQuery": []
+            "tenantId": []
         }
     ]
 }
